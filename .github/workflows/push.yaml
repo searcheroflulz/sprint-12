@@ -15,7 +15,7 @@ jobs:
         run: go test ./...
 
       - name: Build
-        run: go build -o myapp
+        run: go build
 
   deploy:
     name: Push Docker image to Docker Hub
